@@ -1,0 +1,16 @@
+{
+  "Mexican": 0,
+  "American": 1,
+  "Indian": 2,
+  "Mediterranean": 3,
+  "Chinese": 4,
+  "Middle Eastern": 5,
+  "Italian": 6,
+  "Thai": 7,
+  "Japanese": 8,
+  "Southern": 9,
+  "Spanish": 10,
+  "French": 11,
+  "Korean": 12,
+  "Vietnamese": 13
+}

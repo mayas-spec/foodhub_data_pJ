@@ -15,7 +15,8 @@ def get_connection():
     )
 
 def load_csv_to_db():
-    df = pd.read_csv("data/foodhub_powerbi.csv")
+    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'foodhub_powerbi.csv')
+    df = pd.read_csv(csv_path)
     conn = get_connection()
     cursor = conn.cursor()
 
